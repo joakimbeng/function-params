@@ -1,0 +1,29 @@
+{
+  "name": "function-params",
+  "version": "0.1.0",
+  "description": "Get parameter names for a given function (with ES6 arrow syntax support)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec function-params_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joakimbeng/function-params.git"
+  },
+  "keywords": [
+    "function",
+    "parameters",
+    "params",
+    "arguments"
+  ],
+  "author": "Joakim Carlstein <joakim@klei.se>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joakimbeng/function-params/issues"
+  },
+  "homepage": "https://github.com/joakimbeng/function-params#readme",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5"
+  }
+}
